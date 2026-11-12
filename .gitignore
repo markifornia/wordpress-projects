@@ -1,0 +1,73 @@
+# ==========================================
+# WordPress Development - Git Ignore
+# ==========================================
+
+# Ignore everything in the project root
+/*
+
+# ==========================================
+# Development Configuration
+# ==========================================
+
+!/.gitignore
+!/compose.yml
+!/Dockerfile
+!/apache-security.conf
+!/README.md
+
+# ==========================================
+# WordPress Custom Code
+# ==========================================
+
+# Allow wp-content
+!/wp-content/
+/wp-content/*
+
+# Allow themes and plugins directories
+!/wp-content/themes/
+!/wp-content/plugins/
+
+# Ignore installed themes and plugins
+/wp-content/themes/*
+/wp-content/plugins/*
+
+# Track our custom theme
+!/wp-content/themes/my-custom-theme/
+
+# Add custom plugins here when created
+# !/wp-content/plugins/my-custom-plugin/
+
+# ==========================================
+# Sensitive Files
+# ==========================================
+
+.env
+.env.*
+wp-config.php
+wp-config-*.php
+
+# ==========================================
+# WordPress Generated Content
+# ==========================================
+
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/backups/
+/wp-content/ai1wm-backups/
+
+# ==========================================
+# Operating System / Editor Files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ==========================================
+# Dependencies
+# ==========================================
+
+node_modules/
+vendor/
