@@ -1,3 +1,4 @@
+
 {
   "$schema": "https://schemas.wp.org/trunk/theme.json",
   "version": 3,
@@ -23,8 +24,30 @@
           "slug": "foreground",
           "color": "#111827",
           "name": "Foreground"
+        },
+        {
+          "slug": "accent",
+          "color": "#f97316",
+          "name": "Accent"
         }
       ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var:preset|color|background",
+      "text": "var:preset|color|foreground"
+    },
+    "elements": {
+      "h2": {
+        "color": {
+          "text": "var:preset|color|accent"
+        },
+        "typography": {
+          "fontSize": "32px",
+          "fontWeight": "700"
+        }
+      }
     }
   }
 }
