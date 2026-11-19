@@ -48,6 +48,28 @@
           "fontWeight": "700"
         }
       }
+    },
+    "blocks": {
+      "core/button": {
+        "color": {
+          "background": "var:preset|color|primary",
+          "text": "#ffffff"
+        },
+        "border": {
+          "radius": "8px"
+        },
+        "spacing": {
+          "padding": {
+            "top": "12px",
+            "bottom": "12px",
+            "left": "24px",
+            "right": "24px"
+          }
+        },
+        "typography": {
+          "fontWeight": "600"
+        }
+      }
     }
   }
 }
