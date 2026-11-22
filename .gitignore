@@ -45,7 +45,7 @@
 /wordpress-project-embark/wp-content/plugins/*
 
 # Track our custom theme
-!/wordpress-project-embark/wp-content/themes/my-custom-theme/
+!/wordpress-project-embark/wp-content/themes/embark-theme/
 
 # ==========================================
 # Sensitive Files
