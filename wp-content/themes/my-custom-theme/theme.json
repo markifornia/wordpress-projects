@@ -51,10 +51,6 @@
     },
     "blocks": {
       "core/button": {
-        "color": {
-          "background": "var:preset|color|primary",
-          "text": "#ffffff"
-        },
         "border": {
           "radius": "8px"
         },
@@ -68,6 +64,25 @@
         },
         "typography": {
           "fontWeight": "600"
+        },
+        "variations": {
+          "fill": {
+            "color": {
+              "background": "var:preset|color|primary",
+              "text": "#ffffff"
+            }
+          },
+          "outline": {
+            "color": {
+              "background": "transparent",
+              "text": "var:preset|color|primary"
+            },
+            "border": {
+              "color": "var:preset|color|primary",
+              "width": "4px",
+              "style": "solid"
+            }
+          }
         }
       }
     }
