@@ -1,41 +1,51 @@
+
 # ==========================================
-# WordPress Development - Git Ignore
+# WordPress Projects - Git Ignore
 # ==========================================
 
-# Ignore everything in the project root
+# Ignore everything at the repository root
 /*
 
 # ==========================================
-# Development Configuration
+# Repository Files
 # ==========================================
 
 !/.gitignore
-!/compose.yml
-!/Dockerfile
-!/apache-security.conf
 !/README.md
 
+# Allow the Embark project directory
+!/wordpress-project-embark/
+
+# Ignore everything inside Embark by default
+/wordpress-project-embark/*
+
 # ==========================================
-# WordPress Custom Code
+# Embark - Docker Configuration
+# ==========================================
+
+!/wordpress-project-embark/compose.yml
+!/wordpress-project-embark/Dockerfile
+!/wordpress-project-embark/apache-security.conf
+
+# ==========================================
+# Embark - Custom WordPress Code
 # ==========================================
 
 # Allow wp-content
-!/wp-content/
-/wp-content/*
+!/wordpress-project-embark/wp-content/
+
+/wordpress-project-embark/wp-content/*
 
 # Allow themes and plugins directories
-!/wp-content/themes/
-!/wp-content/plugins/
+!/wordpress-project-embark/wp-content/themes/
+!/wordpress-project-embark/wp-content/plugins/
 
 # Ignore installed themes and plugins
-/wp-content/themes/*
-/wp-content/plugins/*
+/wordpress-project-embark/wp-content/themes/*
+/wordpress-project-embark/wp-content/plugins/*
 
 # Track our custom theme
-!/wp-content/themes/my-custom-theme/
-
-# Add custom plugins here when created
-# !/wp-content/plugins/my-custom-plugin/
+!/wordpress-project-embark/wp-content/themes/my-custom-theme/
 
 # ==========================================
 # Sensitive Files
@@ -47,14 +57,14 @@ wp-config.php
 wp-config-*.php
 
 # ==========================================
-# WordPress Generated Content
+# Generated Content
 # ==========================================
 
-/wp-content/uploads/
-/wp-content/cache/
-/wp-content/upgrade/
-/wp-content/backups/
-/wp-content/ai1wm-backups/
+**/wp-content/uploads/
+**/wp-content/cache/
+**/wp-content/upgrade/
+**/wp-content/backups/
+**/wp-content/ai1wm-backups/
 
 # ==========================================
 # Operating System / Editor Files
