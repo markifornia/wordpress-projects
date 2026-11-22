@@ -31,12 +31,54 @@
           "name": "Accent"
         }
       ]
+    },
+    "typography": {
+      "fluidTypography": true,
+      "fontFamilies": [
+        {
+          "fontFamily": "Arial, Helvetica, sans-serif",
+          "name": "System Sans",
+          "slug": "system-sans"
+        },
+        {
+          "fontFamily": "Georgia, 'Times New Roman', serif",
+          "name": "Classic Serif",
+          "slug": "classic-serif"
+        }
+      ],
+      "fontSizes": [
+        {
+          "name": "Small",
+          "slug": "small",
+          "size": "14px"
+        },
+        {
+          "name": "Medium",
+          "slug": "medium",
+          "size": "16px"
+        },
+        {
+          "name": "Large",
+          "slug": "large",
+          "size": "24px"
+        },
+        {
+          "name": "Extra Large",
+          "slug": "x-large",
+          "size": "36px"
+        }
+      ]
     }
   },
   "styles": {
     "color": {
       "background": "var:preset|color|background",
       "text": "var:preset|color|foreground"
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|system-sans",
+      "fontSize": "var:preset|font-size|medium",
+      "lineHeight": "1.6"
     },
     "elements": {
       "h2": {
