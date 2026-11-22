@@ -29,6 +29,11 @@
           "slug": "accent",
           "color": "#f97316",
           "name": "Accent"
+        },
+        {
+          "slug": "pale-pink",
+          "color": "#f58ca8",
+          "name": "Pale Pink"
         }
       ]
     },
@@ -136,6 +141,9 @@
       "fontSize": "var:preset|font-size|medium",
       "lineHeight": "1.6"
     },
+    "spacing": {
+      "blockGap": "var:preset|spacing|md"
+    },
     "elements": {
       "link": {
         "color": {
@@ -195,10 +203,31 @@
             }
           }
         }
+      },
+      "core/quote": {
+        "color": {
+          "background": "var:preset|color|background",
+          "text": "var:preset|color|foreground"
+        },
+        "border": {
+          "left": {
+            "color": "var:preset|color|primary",
+            "style": "solid",
+            "width": "4px"
+          }
+        },
+        "spacing": {
+          "padding": {
+            "top": "var:preset|spacing|md",
+            "bottom": "var:preset|spacing|md",
+            "left": "var:preset|spacing|lg",
+            "right": "var:preset|spacing|md"
+          }
+        },
+        "typography": {
+          "fontStyle": "italic"
+        }
       }
-    },
-    "spacing": {
-      "blockGap": "var:preset|spacing|md"
     }
   }
 }
