@@ -68,6 +68,36 @@
           "size": "36px"
         }
       ]
+    },
+    "spacing": {
+      "units": ["px", "em", "rem", "%", "vh", "vw"],
+      "spacingSizes": [
+        {
+          "name": "Extra Small",
+          "slug": "xs",
+          "size": "8px"
+        },
+        {
+          "name": "Small",
+          "slug": "sm",
+          "size": "16px"
+        },
+        {
+          "name": "Medium",
+          "slug": "md",
+          "size": "24px"
+        },
+        {
+          "name": "Large",
+          "slug": "lg",
+          "size": "40px"
+        },
+        {
+          "name": "Extra Large",
+          "slug": "xl",
+          "size": "64px"
+        }
+      ]
     }
   },
   "styles": {
