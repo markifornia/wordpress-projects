@@ -1,12 +1,12 @@
-
 <?php
 /**
  * Title: Embark CTA Banner
  * Slug: embark-theme/cta-banner
- * Categories: featured
+ * Categories: embark-sections
  * Description: A reusable call-to-action banner.
  */
 ?>
+
 
 <!-- wp:group {"backgroundColor":"pale-pink","style":{"spacing":{"padding":{"top":"40px","bottom":"40px","left":"40px","right":"40px"}},"border":{"radius":"16px"},"shadow":"var:preset|shadow|subtle"},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-pale-pink-background-color has-background" style="border-radius:16px;box-shadow:var(--wp--preset--shadow--subtle);padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px">
