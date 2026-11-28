@@ -1,0 +1,16 @@
+
+/**
+ * Embark custom block styles.
+ */
+
+.wp-block-quote.is-style-embark-highlight {
+    background-color: var(--wp--preset--color--pale-pink);
+    color: var(--wp--preset--color--foreground);
+
+    border-left: 6px solid var(--wp--preset--color--primary);
+    border-radius: 16px;
+
+    padding: var(--wp--preset--spacing--lg);
+
+    box-shadow: var(--wp--preset--shadow--subtle);
+}
